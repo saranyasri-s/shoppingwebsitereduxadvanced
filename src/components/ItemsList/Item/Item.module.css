@@ -1,0 +1,50 @@
+.item {
+  margin: 0.5rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  border-bottom: 1px solid #0000ff30;
+  padding-bottom: 0.5rem;
+}
+.itemDescription {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.itemName {
+  color: #032505;
+}
+.count {
+  color: #5a107b;
+  border: 1px solid #5a107b;
+  padding: 0.3rem;
+}
+.priceAndCount {
+  color: #1b0f94;
+  font-weight: bolder;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+.itemName {
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.buttons button {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  border: 2px solid red;
+  background-color: #522eca;
+  color: white;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: #ca2e78;
+}
