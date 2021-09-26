@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const cartToggle = createSlice({
   name: "cartToggle",
-  initialState: { isToggle: FontFaceSetLoadEvent },
+  initialState: { isToggle: false },
   reducers: {
     toggle(state) {
       state.isToggle = !state.isToggle;
